@@ -6,11 +6,6 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -18,10 +13,8 @@
 						"type": "address"
 					}
 				],
-				"name": "changeOwner",
-				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "function"
+				"type": "constructor"
 			},
 			{
 				"inputs": [],
@@ -34,6 +27,13 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pwn",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -50,7 +50,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/telephone.sol": "Telephone"
+			"contracts/delegate.sol": "Delegate"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -64,12 +64,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/telephone.sol": {
-			"keccak256": "0x4c51940f6b05b2bfbc5ec7c8ec6377226d7f6e73f8eafc783477a38e2291ab4d",
+		"contracts/delegate.sol": {
+			"keccak256": "0x9c0aba1f9927fe66109ad33b5f88a9640cc96037af4f4fc6f90d2ad2b7bcf202",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c7bc8bbe4e6c5768c2da33feae52e37d13f7a7b5a8e8671c3dffc3df1c912526",
-				"dweb:/ipfs/QmW3aqzBeDG8mXoXNh9MVezVCcXw5mgqMRNGH9GQEVP9sz"
+				"bzz-raw://65c6e36c0d2f1f60e647c8678101b033d531d95827f181508dbdfd682e741e14",
+				"dweb:/ipfs/QmWZ1bLDzue3htpZh7TdnjF3fNzSmLjEFGNWXi5SSRdEiC"
 			]
 		}
 	},

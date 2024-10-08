@@ -6,13 +6,6 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "attack",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -20,7 +13,12 @@
 						"type": "address"
 					}
 				],
-				"name": "attacker",
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "flip",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -39,7 +37,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/telephone.sol": "Attacker"
+			"contracts/coinflip.sol": "Attacker"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -53,12 +51,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/telephone.sol": {
-			"keccak256": "0x4ba418964ad6bf71be1db6fe928abff6c08e32faeea33e022393f9e461cbc658",
+		"contracts/coinflip.sol": {
+			"keccak256": "0xbb83f3b7ead7f152bb741ba583ec5e7a2805e7600da1ed55f601dbe55025e9d5",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://82f228ce56daa6345213221a44b70e8b7ed83345f7fd2e020e9592be77ed047b",
-				"dweb:/ipfs/Qmc4i5YkBh46S3Sk6WmGUrJNjY9n1dbDJPSm5qz9zPmBHd"
+				"bzz-raw://8042d944a9b7a124fa99aa9dcdcccf17da3476a6cf026efd737742f22481540d",
+				"dweb:/ipfs/QmV5Zsu19428ySnP4bn8Cn8VAvadRf62rf1R6eTs6Q4MDb"
 			]
 		}
 	},
