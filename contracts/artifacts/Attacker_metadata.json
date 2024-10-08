@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "attack",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					}
+				],
+				"name": "attacker",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/telephone.sol": "Attacker"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/telephone.sol": {
+			"keccak256": "0x4ba418964ad6bf71be1db6fe928abff6c08e32faeea33e022393f9e461cbc658",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://82f228ce56daa6345213221a44b70e8b7ed83345f7fd2e020e9592be77ed047b",
+				"dweb:/ipfs/Qmc4i5YkBh46S3Sk6WmGUrJNjY9n1dbDJPSm5qz9zPmBHd"
+			]
+		}
+	},
+	"version": 1
+}

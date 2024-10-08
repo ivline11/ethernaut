@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_telephoneAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_owner",
+						"type": "address"
+					}
+				],
+				"name": "callChangeOwner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "telephoneInstance",
+				"outputs": [
+					{
+						"internalType": "contract ITelephone",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/telephone.sol": "changeOwner"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/telephone.sol": {
+			"keccak256": "0x6d00911e284c8535db4433101fdb1636dba6e05cedab854e49cc545cbf724453",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d92407d798e7a407c158544abcc22bb7ec70040cddd31f699d575c3d880f6316",
+				"dweb:/ipfs/QmSaJwS8KngX2cDwasrneCw1a1KMBPMyW4K7FzQQewAxGA"
+			]
+		}
+	},
+	"version": 1
+}
